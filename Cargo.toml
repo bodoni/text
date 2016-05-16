@@ -4,8 +4,8 @@ version = "0.0.2"
 license = "MIT"
 authors = ["Ivan Ukhov <ivan.ukhov@gmail.com>"]
 description = "The package provides a text toolbox."
-homepage = "https://github.com/hilbert-space/text"
-repository = "https://github.com/hilbert-space/text"
+homepage = "https://github.com/bodoni/text"
+repository = "https://github.com/bodoni/text"
 
 [dependencies]
 font = "0.0"
