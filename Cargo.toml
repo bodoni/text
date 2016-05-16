@@ -1,6 +1,6 @@
 [package]
 name = "text"
-version = "0.0.1"
+version = "0.0.2"
 license = "MIT"
 authors = ["Ivan Ukhov <ivan.ukhov@gmail.com>"]
 description = "The package provides a text toolbox."
@@ -8,4 +8,4 @@ homepage = "https://github.com/hilbert-space/text"
 repository = "https://github.com/hilbert-space/text"
 
 [dependencies]
-font = "*"
+font = "0.0"
