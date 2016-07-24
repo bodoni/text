@@ -1,0 +1,17 @@
+language: rust
+sudo: false
+
+rust:
+  - stable
+  - beta
+  - nightly
+
+after_success:
+  - curl https://bodoni.github.io/travis/documentation.sh | bash
+
+env:
+  global:
+    - secure: eunDHvaiXd3qbtTbtvIRc3QW1TXMs6kBrHz8xrR4IPvdBJOzbKEcoSoqB9QugJSAXMu0c6i5DJPF/CtrB5LUsITVOvTVeOQS4BZrDqYtM2O+uVSuo5Qh+YlWDck73HmzldIK643zXEHDGmES87bh/8CwOO64KaxQFroBLPqpeS/yIxpNsrcBvDpJoUYGN0Yw6MMn9s+RSuIuYqMEqX5nWvYe8SiU5lJcNtD1td4MQpPF1+qCb6LIR/8+irdCkaiPuUJCaoGaFth2hUlGb3wOKqgTMGCTEIjV6woxcyCoj7IZRm71Mz1oLgwlHixNgPEUkP+hYTF2LyROXwc+G378u30DlCLoo87DH3kD9GgJOAGn3YieMXhKgWak40qVS0QdD6UirUxWYmPkOHZ30jAqcd5zFc6zkjopNVVNSAoohhKUmEdXCVaGKmfCX6MqmAnJ6eoqSoOjndaYS+j1SFJCQv11ItfJiL6CEAMB1K6BDxRPwxx3Z9UXBSCH7S/Fwuc2PSx7/s7vHUECkCXlvGw+STsDUTheJJxqRpUMeX9f/fG//4aQr0AjSqExhrJwhnQsx2ZywGRogd0XcuP0+uQQjhsqlBz3y4DHgCrJH3IXXENlqFCmtv/vH46L11tnbgMp0FOMmQsLrf7hrcC5eiK6ZRpBVT7iwSQEbiXiOEp7mww=
+
+notifications:
+  email: false
