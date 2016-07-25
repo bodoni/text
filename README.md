@@ -7,9 +7,17 @@ The package provides a text toolbox.
 ## Example
 
 ```rust
-use text::Text;
+extern crate font;
+extern crate text;
 
-let text = Text::new("The quick brown fox jumps over the lazy dog.");
+use font::File;
+use text::Layout;
+
+let path = "SourceSerifPro-Regular.otf";
+let font = File::open(path).unwrap().fonts.remove(0);
+
+let mut layout = Layout::new(font);
+let text = layout.draw("The quick brown fox jumps over the lazy dog.").unwrap();
 ```
 
 ## Contribution

@@ -9,4 +9,4 @@ homepage = "https://github.com/bodoni/text"
 repository = "https://github.com/bodoni/text"
 
 [dependencies]
-font = "0.0.13"
+font = "0.0.14"
