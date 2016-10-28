@@ -2,7 +2,7 @@
 
 The package provides a text toolbox.
 
-## [Documentation][doc]
+## [Documentation][documentation]
 
 ## Example
 
@@ -26,7 +26,7 @@ Your contribution is highly appreciated. Do not hesitate to open an issue or a
 pull request. Note that any contribution submitted for inclusion in the project
 will be licensed according to the terms given in [LICENSE.md](LICENSE.md).
 
-[doc]: https://bodoni.github.io/text
+[documentation]: https://docs.rs/text
 [status-img]: https://travis-ci.org/bodoni/text.svg?branch=master
 [status-url]: https://travis-ci.org/bodoni/text
 [version-img]: https://img.shields.io/crates/v/text.svg
