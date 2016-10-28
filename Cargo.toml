@@ -1,6 +1,6 @@
 [package]
 name = "text"
-version = "0.0.5"
+version = "0.0.4"
 license = "Apache-2.0/MIT"
 authors = ["Ivan Ukhov <ivan.ukhov@gmail.com>"]
 description = "The package provides a text toolbox."
@@ -9,4 +9,4 @@ homepage = "https://github.com/bodoni/text"
 repository = "https://github.com/bodoni/text"
 
 [dependencies]
-font = "0.1"
+font = "0.3"
